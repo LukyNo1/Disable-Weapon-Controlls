@@ -1,4 +1,4 @@
--- Made by LukyNo, if you have any suggestions or bugs, please contact me on my GitHub or Discord
+-- Made by LukyNo, if you have any suggestions or bugs, please open PL or "Issues" on my GitHub
 
 local disableWeaponControls = false
 
