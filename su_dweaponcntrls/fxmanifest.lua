@@ -11,5 +11,3 @@ client_script 'client/client.lua'
 server_script 'server/server.lua'
 
 shared_script 'config.lua'
-
-escrow_ignore 'config.lua'
