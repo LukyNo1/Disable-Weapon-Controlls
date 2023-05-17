@@ -4,10 +4,10 @@ AddEventHandler("onResourceStart", function(resource)
         return
     end
 
-    local currentVersion = "1.0" -- aktuálna verzia vášho scriptu
+    local currentVersion = "1.0" -- Don´t change this
     PerformHttpRequest("https://raw.githubusercontent.com/LukyNo1/Disable-Weapon-Controlls/main/version.txt", function(errorCode, resultData, resultHeaders)
         if (string.find(resultData, currentVersion) == nil) then
-            print("^1Update! New version is avaible on your KeyMaster!^0")
+            print("^1Update! New version is avaible on https://github.com/LukyNo1/Disable-Weapon-Controlls/releases^0")
         end
     end)
 end)
